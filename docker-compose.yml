@@ -19,7 +19,7 @@ services:
     volumes: 
       - /var/www:/code
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
-      - ./php/imagick.ini:/usr/local/etc/php/conf.d/imagick.ini
+     # - ./php/imagick.ini:/usr/local/etc/php/conf.d/imagick.ini
     environment: 
       MYSQL_USER: 'rad'
       MYSQL_PASSWORD: 'pass'
